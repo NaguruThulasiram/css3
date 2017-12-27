@@ -1,0 +1,12 @@
+@font-face{
+font-family: thulasi; 
+src=url(sansation_light.woff);
+}
+.font2 {
+background: lime;
+font-family: thulasi;
+}
+.font1 {
+	background: red;
+	font-family: thulasi;
+}

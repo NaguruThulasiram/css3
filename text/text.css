@@ -1,0 +1,41 @@
+.text1 p{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border: 1px solid black;
+	width: 100px;
+}
+.text1 {
+background: cyan;
+}
+.text2 {
+margin: 10px 0 0 0;
+background: deeppink;
+}
+.text2 h5{
+width: 100px;
+border: 1px solid black;
+}
+.text2 p{
+width: 100px;
+border: 1px solid black;
+word-wrap: break-word;
+}
+.text3 {
+	margin: 10px 0 0 0;
+	background: gold;
+}
+.text3 p{
+	width: 100px;
+	border: 1px solid black;
+	word-break: break-all;
+}
+.text4 {
+	margin: 10px 0 0 0;
+	background: lightgreen;
+}
+.text4 p{
+	width: 100px;
+	border: 1px solid black;
+	word-break: keep-all;
+}

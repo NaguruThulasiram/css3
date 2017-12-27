@@ -1,0 +1,24 @@
+.shadow1 {
+	background: orange;
+	padding: 10px;
+}
+.shadow1 h2 {
+	text-shadow: 2px 2px;
+}
+.shadow2 {
+	padding: 10px;
+	margin: 10px 0 0 0;
+}
+.shadow2 h2{
+	text-shadow: 2px 2px red;
+}
+.shadow3 {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.shadow4 {
+	width: 300px;
+	height: 200px;
+	background-color: yellow;
+	box-shadow: 5px 5px 6px gray;
+}

@@ -1,0 +1,95 @@
+h2{
+color: blue;
+}
+.background1 {
+background-image: url(img_flwr.gif), url(paper.gif);
+background-position: right bottom, left top;
+background-repeat: no-repeat, repeat;
+padding: 20px;
+height: 200px;
+}
+.background2 {
+background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+padding: 20px;
+height: 200px;
+margin-top: 10px;
+}
+.background3 {
+background: url(img_flwr.gif) left top no-repeat;
+background-size: 400px 100px;
+margin-top: 10px;
+height: 200px;
+background-color: lightgray;
+text-align:right;
+}
+.background4{
+background: url(img_flwr.gif);
+width: 200px;
+height: 150px;
+border: 1px solid black;
+margin: 10px 0 0 0;
+background-size: contain;
+padding: 20px;
+}
+.background5 {
+background: url(img_flwr.gif);
+width: 200px;
+height: 150px;
+background-size: cover;
+border: 1px solid black;
+margin: 10px 0 0 0;
+padding: 20px;
+}
+.background6 {
+background-color:pink;
+padding: 10px;
+margin: 10px 0 0 0;
+}
+.background7 {
+background-color:orange;
+padding: 10px;
+margin: 10px 0 0 0;
+}
+.background8 {
+height: 150px;
+background: url(img_flwr.gif) no-repeat;
+padding: 20px;
+background-origin: content-box;
+margin: 10px 0 0 0;
+border: 1px solid black;
+}
+.background9 {
+height: 150px;
+background: url(img_flwr.gif) no-repeat;
+padding: 20px;
+background-origin: padding-box;
+margin: 10px 0 0 0;
+border: 1px solid black;
+}
+.background10 {
+background: yellow;
+width: 100%;
+height: 150px;
+padding: 20px;
+background-clip: content-box;
+margin: 10px 0 0 0;
+border: 10px dotted black;
+}
+.background11 {
+background: red;
+width: 100%;
+height: 150px;
+padding: 20px;
+background-clip: padding-box;
+margin: 10px 0 0 0;
+border: 10px dotted black;
+}
+.background12 {
+background: blue;
+width: 100%;
+height: 150px;
+padding: 20px;
+background-clip: border-box;
+margin: 10px 0 0 0;
+border: 10px dotted black;
+}

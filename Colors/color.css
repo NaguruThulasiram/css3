@@ -1,0 +1,10 @@
+.color1 {
+height: 100px;
+background-color: rgba(0,120,120,0.5);
+padding: 10px;
+}
+.color2 {
+padding: 10px;
+background-color: hsla(240, 50%, 70%, 0.3);
+margin: 20px 0 0 0;
+}
